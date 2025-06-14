@@ -44,7 +44,6 @@ INSERT INTO pdf_reviews (
 );
 
 ALTER TASK load_new_file_data RESUME;
-
 SELECT * FROM pdf_reviews;
 
 CREATE OR REPLACE TABLE doc_ai_db.doc_ai_schema.pdf_reviews_2 AS (
